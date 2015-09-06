@@ -1,0 +1,76 @@
+body {
+    background-image: url('http://served.kittykatt.us/projects/configs/mythemes/wallpapers/underwater_tiles.jpg');
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    width: 70%;
+    margin-top: 12px;
+    box-shadow: 0.4em 0.4em 0.75em #444444;
+}
+
+a {
+    font: bold 14px/25px Arial, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer a:hover {
+    color: #999FAA
+}
+
+.button {
+	background-color: #FF0000;
+	height: 30px;
+	width: 45px;
+	border-radius: 10px;
+	margin-left: 15px;
+	text-align: center;
+	box-shadow: 0.3em 0.3em 0.5em #FFFFFF;
+}
+
+.title {
+    font: bold 26px/25px, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    position: relative;
+    left: 250px;
+    bottom: 225px;
+    box-shadow: inset 11em 0 2em #444444;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+}
+
+.container {
+    background-color: #fff999;
+    width: 28%;
+    overflow: none;
+    border-radius: 0 15px;
+    padding: 15px 20px;
+    margin: 76px 560px;
+    box-shadow: 0.4em 0.4em 1em #444444;
+}
+
+.footer {
+    font: lighter 14px/35px 'Gills Sans', sans-serif;
+    background-color: #444444;
+    color: #FFFFFF;
+    padding: 42px 15px;
+}
+
+.footer a {
+    color: #FFFFFF;
+}
+
+.accent,
+.title {
+    font-family: 'Montserrat';
+}
+
+.underline {
+    text-decoration: underline;
+}
