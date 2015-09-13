@@ -25,17 +25,21 @@ a {
 }
 
 .btn {
-	background-color: #FF0000;
-	transition: background-color 0.4s;
 	height: 30px;
 	width: 45px;
+	color: #ffffff;
+	background-color: #FF0000;
+	transition: background-color 0.5s, color 1s;
 	border-radius: 10px;
 	margin: auto 15px;
 	text-align: center;
 	box-shadow: 0 0 1em #FFFFFF;
 }
 
-.btn:hover { color: #222222; }
+.btn:hover {
+	color: #EEEE77;
+	background-color: #8F0000;
+}
 
 .title {
     font: bold 26px/25px, sans-serif;
@@ -52,8 +56,8 @@ a {
 }
 
 .container {
+	width: 28%;
     background-color: #fff999;
-    width: 28%;
     overflow: none;
     border-radius: 0 15px;
     padding: 15px 20px;
