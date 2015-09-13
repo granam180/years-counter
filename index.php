@@ -1,6 +1,7 @@
 <?php include 'header.php' ?>
 
-	<h2 class="title">Age-o-mometer -==> <a href="/PHP/years_counter/index.php" class="button">click</a></h2>
+	<div class="page-wrap">
+	<h2 class="title">Age-o-mometer -==> <a href="/PHP/years_counter/index.php" class="btn">click</a></h2>
 	<div class="container">
     <?php
         $randNum = 0;
@@ -48,5 +49,5 @@
 		  <br/>Here's what you may look like in <span class=\"accent underline\"> {$years}</span> years.</p>";
     ?>
     </div>
-
+    </div>
 <?php include 'footer.php' ?>
