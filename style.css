@@ -1,7 +1,5 @@
 body {
     background-image: url('http://served.kittykatt.us/projects/configs/mythemes/wallpapers/underwater_tiles.jpg');
-    max-width: 100%;
-    margin: 0 auto;
 }
 
 img {
@@ -17,19 +15,27 @@ a {
     display: inline-block;
 }
 
+.page-wrap {
+	width: 1280px;
+	margin: 0 auto;
+}
+
 .footer a:hover {
     color: #999FAA
 }
 
-.button {
+.btn {
 	background-color: #FF0000;
+	transition: background-color 0.4s;
 	height: 30px;
 	width: 45px;
 	border-radius: 10px;
-	margin-left: 15px;
+	margin: auto 15px;
 	text-align: center;
-	box-shadow: 0.3em 0.3em 0.5em #FFFFFF;
+	box-shadow: 0 0 1em #FFFFFF;
 }
+
+.btn:hover { color: #222222; }
 
 .title {
     font: bold 26px/25px, sans-serif;
