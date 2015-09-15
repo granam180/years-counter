@@ -1,13 +1,13 @@
 <?php include 'header.php' ?>
 
 	<div class="page-wrap">
-	<div class="title">Age-o-mometer -==>
+	<div class="page-title">Age-o-mometer -==>
 		<a href="/PHP/years_counter/index.php" class="btn">
 			<span class="top content">click</span>
 			<span class="bottom content">here</span>
 		</a>
 	</div>
-	<div class="container">
+	<div class="main-container">
     <?php
         $randNum = 0;
 	do {

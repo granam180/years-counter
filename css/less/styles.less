@@ -34,7 +34,6 @@ a {
         width: 1280px;
         margin: 0 auto;
     }
-
     &-title {
         font: bold 22px/30px 'Montserrat', sans-serif;
         background-color: @black;
@@ -51,33 +50,31 @@ a {
         background-color: @grey-dark;
         color: @white;
         padding: 42px 15px;
+
         a { color: @white }
         a:hover { color: @grey-light }
     }
 }
 
 .btn {
-    height: 30px;
-    width: 5%;
+    height: 25px;
+    width: 4%;
     color: #ffffff;
     background-color: #FF0000;
     border-radius: 10px;
-    margin: auto 12px;
-    /* padding-left: 18px; */
+    margin: auto 20px;
     text-align: center;
     box-shadow: 0 0 0.5em #ffffff;
     overflow: hidden;
     position: relative;
     transition: background-color 0.5s, color 1s;
 
-
-		&:hover {
-			color: #EEEE77;
-			background-color: #8F0000;
-
-				.top { top: -100px }
-				.bottom { bottom: 28px }
-		}
+    &:hover {
+        color: #EEEE77;
+        background-color: #8F0000;
+        .top { top: -100px }
+        .bottom { bottom: 28px }
+    }
 }
 
 .top { top: 0 }
